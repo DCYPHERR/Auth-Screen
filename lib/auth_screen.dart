@@ -170,7 +170,6 @@ class _AuthScreenState extends State<AuthScreen>
                         padding: const EdgeInsets.symmetric(
                             vertical: defpaultPadding * 0.75),
                         width: 160,
-                        //color: Colors.red,
                         child: Text(
                           "Sign Up".toUpperCase(),
                         ),
