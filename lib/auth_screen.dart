@@ -52,6 +52,7 @@ class _AuthScreenState extends State<AuthScreen>
   Widget build(BuildContext context) {
     final _size = MediaQuery.of(context).size;
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: AnimatedBuilder(
           animation: _animationController,
           //stream: null,
